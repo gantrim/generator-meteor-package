@@ -13,7 +13,7 @@ describe('generator-meteor-package:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'dummyfile.txt'
+      '_package.js'
     ]);
   });
 });
